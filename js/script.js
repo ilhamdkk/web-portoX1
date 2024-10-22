@@ -45,7 +45,7 @@ function navigateTo(id) {
 	removeClassFrom(currentPg, ["active-page"]);
 
 	setTimeout(() => {
-		document.title = `Vincent Saerang - ${id}`;
+		document.title = `ilhamdwik - ${id}`;
 
 		addClassTo(navToPage, ["active-page"]);
 	}, 500)
@@ -61,7 +61,7 @@ function navigateTo(id) {
 }
 
 function copyEmail(e) {
-	navigator.clipboard.writeText("vins25165@gmail.com")
+	navigator.clipboard.writeText("denis.ilhamdk96@gmail.com")
 	alert("copied")
 }
 
